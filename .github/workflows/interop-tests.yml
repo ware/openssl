@@ -11,7 +11,7 @@ on:
 
 jobs:
   test:
-    runs-on: ubuntu-22.04
+    runs-on: ubuntu-24.04
     container:
       image: docker.io/fedora:40
       options: --sysctl net.ipv6.conf.lo.disable_ipv6=0
