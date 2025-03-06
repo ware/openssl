@@ -13,7 +13,7 @@ jobs:
   test:
     runs-on: ubuntu-22.04
     container:
-      image: docker.io/fedora:40
+      image: docker.io/fedora:42
       options: --sysctl net.ipv6.conf.lo.disable_ipv6=0
     timeout-minutes: 90
     strategy:
